@@ -91,7 +91,8 @@ module.exports = function(grunt) {
         'assets/css/main.min.css',
         'assets/js/scripts.min.js'
       ]
-    }
+    },
+    cache: false,
   });
 
   // Load tasks
@@ -108,7 +109,7 @@ module.exports = function(grunt) {
     'clean',
     'recess',
     'uglify',
-    'imagemin',
+    // 'imagemin',
     'svgmin'
   ]);
   grunt.registerTask('dev', [

@@ -8,7 +8,7 @@
 </head>
 
 <body id="post" {% if page.image.feature %}class="feature"{% endif %}>
-
+{% include google_analytics.html %}
 {% include browser-upgrade.html %}
 {% include navigation.html %}
 
@@ -28,9 +28,11 @@
         {% if page.link %}
           <h1 class="entry-title"><a href="{{ page.link }}">{{ page.title }}</a></h1>
         {% else %}
-          <h1 class="entry-title"><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
+          <h1 class="entry-title"><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }} </a></h1>
         {% endif %}
+        <h2 style="font-size: 20px; margin-bottom: 30px; margin-top: -10px;"> {{ page.description }} </h2>
         <h2>{{ page.date | date: "%B %d, %Y" }}</h2>
+
         {% if site.reading_time %}
         <p class="entry-reading-time">
           <i class="fa fa-clock-o"></i>
@@ -87,7 +89,7 @@
   </footer>
 </div><!-- /.footer-wrapper -->
 
-{% include scripts.html %}	        
+{% include scripts.html %}
 
 </body>
 </html>

@@ -8,7 +8,7 @@
 </head>
 
 <body id="page" {% if page.image.feature %}class="feature"{% endif %}>
-
+{% include google_analytics.html %}
 {% include browser-upgrade.html %}
 {% include navigation.html %}
 
@@ -42,7 +42,7 @@
         <span class="author vcard fn">{{ site.owner.name }}</span>{% endif %}
         {% if page.share %}<div class="social-share">
           <ul class="socialcount socialcount-small inline-list" data-url="{{ site.url }}{{ page.url }}" data-share-text="{{ page.title }}">
-            <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+            <li class="facebook"><a href='http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Farnavsharma93.github.io%2F&width&layout=box_count&action=recommend&show_faces=true&share=true&height=65' title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
             <li class="twitter"><a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
             <li class="googleplus"><a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
           </ul>
@@ -59,7 +59,7 @@
   </footer>
 </div><!-- /.footer-wrapper -->
 
-{% include scripts.html %}          
+{% include scripts.html %}
 
 </body>
 </html>

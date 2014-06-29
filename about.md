@@ -1,33 +1,22 @@
 ---
 layout: page
 permalink: /about/
-title: About the Theme
-tags: [Jekyll, theme, modern, minimal, responsive]
+title: About me
+tags: [arnavsharma93, about, me, description]
 image:
-  feature: abstract-5.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+    feature: congruent_pentagon.png
+    credit: Dax Kieran
+    creditlink: http://subtlepatterns.com/?s=triangular
+
 share: true
 ---
 
-They say three times the charm, so here is another free responsive Jekyll theme for you. I've learned a ton since open sourcing my first two themes [on Github](http://github.com/mmistakes), and wanted to try a few new things this time around. If you've used my previous themes most of this should be familiar territory...
+## Who am I?
 
-## What HPSTR brings to the table:
 
-* Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
-* Gracefully degrads in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
-* Modern and minimal design.
-* Sweet animated menu.
-* Background image support.
-* Readable typography to make your words shine.
-* Support for large images to call out your favorite posts.
-* Comments powered by [Disqus](http://disqus.com) if you choose to enable.
-* Simple and clear permalink structure[^1].
-* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
-* Simple [custom 404 page]({{ site.url }}/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting]({{ site.url }}/code-highlighting-post/) to make your code examples look snazzy
-* [Grunt](http://gruntjs.com) build script for easy theme development
+TBH, IDK.
 
-<div markdown="0"><a href="{{ site.url }}/theme-setup" class="btn btn-info">Install the Theme</a></div>
+I am [Arnav Sharma](http://web.iiit.ac.in/~arnav.s/), currently studying in [IIIT-H](http://iiit.ac.in/) and living in Hyderabad. I am passionate about developing new things, contributing to FOSS and traveling. I am currently a [GSoC](https://www.google-melange.com/gsoc/homepage/google/gsoc2014) intern with [Sahana Software Foundation](http://sahanafoundation.org/) and doing research on parsing natural languages at [LTRC](http://ltrc.iiit.ac.in/).
 
-[^1]: Example: *domain.com/category-name/post-title*
+
+My father, **Col. A. K. Sharma**, is an Army officer. Hence, I am a fauji brat (as we like to call ourselves).  My mother, **Ms. Sonia Sharma**, is a high school English teacher. I have an awesome brother, **Varun Sharma**, who lives in New York and works at LinkedIn. I have spent my childhood in cantonments like Umroi in Meghalya, Ambala in Haryana, Fatehgarh & Mathura in Uttar Pradesh and Amritsar & Jalandhar in Punjab.
